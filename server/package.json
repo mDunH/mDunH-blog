@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start index.js --name 'mDunH'",
+    "stop": "pm2 stop mDunH"
+  },
+  "repository": {},
+  "author": "jian",
+  "license": "ISC",
+  "dependencies": {}
+}
